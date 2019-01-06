@@ -34,6 +34,7 @@ public class UnityChanController : MonoBehaviour {
         this.myRigidbody = GetComponent<Rigidbody>();
 
         this.stateText = GameObject.Find("GameResultText");
+        
 
         this.scoreText = GameObject.Find("ScoreText");
 	}
